@@ -36,7 +36,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden lg:block">
             <Link
-              href="#"
+              href="/login"
               className="inline-flex items-center justify-center px-5 py-2.5 font-semibold text-white bg-black rounded-full hover:bg-yellow-300 hover:text-black transition"
             >
               Join Now
@@ -94,29 +94,22 @@ export default function Navbar() {
               Features
             </Link>
             <Link
-              href="#"
+              href="/articles"
               className="block text-base text-black hover:opacity-80"
               onClick={() => setIsOpen(false)}
             >
               Solutions
             </Link>
             <Link
-              href="#"
+              href="/add-articles"
               className="block text-base text-black hover:opacity-80"
               onClick={() => setIsOpen(false)}
             >
               Resources
             </Link>
-            <Link
-              href="#"
-              className="block text-base text-black hover:opacity-80"
-              onClick={() => setIsOpen(false)}
-            >
-              Pricing
-            </Link>
 
             <Link
-              href="#"
+              href="/login"
               className="block w-full text-center px-5 py-2.5 font-semibold text-white bg-black rounded-full hover:bg-yellow-300 hover:text-black transition"
               onClick={() => setIsOpen(false)}
             >
