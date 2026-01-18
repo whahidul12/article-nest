@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Aurora from "@/components/backgrounds/Aurora";
+import Feature from "@/components/feature/Feature";
+import Hero from "@/components/hero/Hero";
 
 export default function Home() {
   return (
     <>
-      <h1>hi there  </h1>
+      <Hero />
+      <Feature />
     </>
   );
 }
